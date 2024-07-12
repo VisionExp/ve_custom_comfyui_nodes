@@ -64,4 +64,10 @@ class LoadImgFromInputUrl:
         return (img_out, mask_out)
 
 
+NODE_CLASS_MAPPINGS = {
+    "LoadImgFromInputUrl": LoadImgFromInputUrl,
+}
 
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "LoadImgFromInputUrl": "Load Image from input URL",
+}
